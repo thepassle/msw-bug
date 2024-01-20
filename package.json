@@ -9,12 +9,8 @@
   },
   "keywords": [],
   "author": "",
-  "overrides": {
-    "msw": "2.1.0"
-  },
   "license": "ISC",
-  "devDependencies": {
-    "@web/mocks": "^1.1.0",
-    "@web/test-runner": "^0.18.0"
+  "dependencies": {
+    "msw": "^2.1.0"
   }
 }

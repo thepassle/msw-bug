@@ -9,10 +9,12 @@
   },
   "keywords": [],
   "author": "",
+  "overrides": {
+    "msw": "2.1.0"
+  },
   "license": "ISC",
   "devDependencies": {
     "@web/mocks": "^1.1.0",
-    "@web/test-runner": "^0.18.0",
-    "@web/test-runner-puppeteer": "^0.15.0"
+    "@web/test-runner": "^0.18.0"
   }
 }

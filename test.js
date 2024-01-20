@@ -6,6 +6,8 @@ describe('test', () => {
     registerMockRoutes(http.get('/api/foo', () => Response.json({ foo: 'foo' })));
 
     const response = await fetch('/api/foo').then(r => r.json());
-    expect(response.foo).to.equal('foo');
+    if(response.foo !== 'foo') {
+      throw new Error('response.foo !== "foo"');
+    }  
   });
 });
